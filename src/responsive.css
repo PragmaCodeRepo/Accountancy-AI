@@ -1,0 +1,79 @@
+@media (max-width: 600px) {
+  .demo-pill {
+    display: inline-block;
+    max-width: 108px;
+    white-space: normal;
+    text-align: center;
+    font-size: 6px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    padding: 4px;
+  }
+
+  .period-select {
+    display: block;
+    width: 70px;
+    max-width: 70px;
+    font-size: 8px;
+  }
+
+  .topbar-tools {
+    gap: 4px;
+  }
+}
+
+.format-toggle {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.format-toggle button {
+  border: 1px solid #dce2e9;
+  border-radius: 5px;
+  background: #fff;
+  color: #647187;
+  padding: 6px 10px;
+  font-size: 10px;
+}
+
+.format-toggle button.selected {
+  border-color: #109b8d;
+  background: #e9f7f4;
+  color: #087f73;
+  font-weight: 700;
+}
+
+.validation-list {
+  padding: 0;
+  list-style: none;
+}
+
+.validation-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eff1f4;
+  font-size: 10px;
+  color: #647187;
+}
+
+.exception-actions {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 10px;
+}
+
+.exception-actions span {
+  font-size: 9px;
+}
+
+.derived-evidence {
+  padding: 9px;
+  background: #fff;
+  border-left: 2px solid #d7aa45;
+  color: #536176;
+  font-size: 9px;
+}
